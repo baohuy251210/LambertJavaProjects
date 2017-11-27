@@ -1,5 +1,5 @@
 ## Welcome to my codes library!!
--
+---------------
 ### File Input and Output
 The program below use my .txt files as input and output files.
 It will read 2 integers from the input and print out the larger integer to output until there's nothing left to read.
