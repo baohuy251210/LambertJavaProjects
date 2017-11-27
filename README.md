@@ -1,1 +1,2 @@
-## Welcome I'm learning to edit this site :) 
+## Welcome 
+I am still learning to make this user-friendly :)
