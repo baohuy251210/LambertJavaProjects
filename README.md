@@ -61,6 +61,7 @@ testout.txt
 ## Decimal to Hexadecimal 
 Using .txt files as input and output. This program change the value from Decimal base to Hexadecimal base 
 
+Code:
 ```java
 import java.util.*;
 import java.io.*;
@@ -89,6 +90,7 @@ public class DectoHex {
         
 }
 ```
+[View code on Github!](https://github.com/baohuy251210/LambertJavaProjects/blob/master/DectoHex/src/dectohex/DectoHex.java)
 #### Example testcases:
 ##### Test 1:
 testin.txt
