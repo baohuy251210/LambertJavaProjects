@@ -60,7 +60,10 @@ testout.txt
 ---
 ## Decimal to Hexadecimal 
 Using .txt files as input and output. This program change the value from Decimal base to Hexadecimal base 
-
+Explain: 
+The code use a String locate = "0123456789ABCDEF", which contains all the characters in hexadecimal base.
+Each turn, the program checks if it's gone through the entire integer (decimal base) or not. Then, by using ```dec%16```, it puts in the result string the character at ```dec%16```. 
+Best way is to try it.
 Code:
 ```java
 import java.util.*;
