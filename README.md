@@ -110,3 +110,6 @@ testout.txt
 ```
 6E
 ```
+----
+## That's it for TXT Files Maniputlating. 
+###### It is basically using i/o on files instead of ide's output or terminal/command prompt.
