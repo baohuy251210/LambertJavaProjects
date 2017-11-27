@@ -1,6 +1,11 @@
+---
 ### File Input and Output
 The program below use my .txt files as input and output files.
-It will read 2 integers from the input and print out the larger integer to output until there's nothing left to read
+It will read 2 integers from the input and print out the larger integer to output until there's nothing left to read.
+```
+throws IOException
+```
+is included because the file will not read from standard output of the program.
 ```java
 import java.io.*;
 import java.util.*;
@@ -46,3 +51,5 @@ public class File {
 61
 1000
 ```
+---
+
