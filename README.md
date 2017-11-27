@@ -1,4 +1,4 @@
-##File Input and Output
+### File Input and Output
 The program below use my .txt files as input and output files.
 It will read 2 integers from the input and print out the larger integer to output until there's nothing left to read
 ```java
@@ -26,4 +26,23 @@ public class File {
         }
         
 }
+```
+##### Example Testcase:
+###### testin.txt
+```
+3 4 
+4 6
+10 123
+3 2
+15 61
+100 1000
+```
+###### testout.txt
+```
+4
+6
+123
+3
+61
+1000
 ```
