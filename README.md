@@ -7,6 +7,7 @@ It will read 2 integers from the input and print out the larger integer to outpu
 throws IOException
 ```
 is included because the file will not read from standard output of the program.
+[Code!](https://github.com/baohuy251210/LambertJavaProjects/blob/master/DectoHex/src/dectohex/DectoHex.java)
 ```java
 import java.io.*;
 import java.util.*;
