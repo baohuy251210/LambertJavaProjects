@@ -111,5 +111,5 @@ testout.txt
 6E
 ```
 ----
-## That's it for TXT Files Manipulating. 
-It is basically using i/o on files instead of ide's output or terminal/command prompt.
+#### That's it for TXT Files Manipulating. 
+#### It is basically using i/o on files instead of ide's output or terminal/command prompt.
