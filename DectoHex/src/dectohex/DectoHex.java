@@ -1,7 +1,6 @@
 package dectohex;
 
 /**
- *
  * @author baohuy251210
  */
 import java.util.*;
