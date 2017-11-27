@@ -1,2 +1,1 @@
-## Welcome to my LambertJavaProjects 
-It is Clear, Free and Optimized :) 
+## Welcome I'm learning to edit this site :) 
