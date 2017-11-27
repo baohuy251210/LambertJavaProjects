@@ -33,7 +33,8 @@ public class File {
 }
 ```
 ##### Example Testcase:
-###### testin.txt
+### Test 1
+testin.txt
 ```
 3 4 
 4 6
@@ -42,7 +43,7 @@ public class File {
 15 61
 100 1000
 ```
-###### testout.txt
+testout.txt
 ```
 4
 6
@@ -85,7 +86,7 @@ public class DectoHex {
 }
 ```
 #### Example testcases:
-###### Test 1:
+### Test 1:
 testin.txt
 ```
 8
