@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package filé;
+package File;
 
 /**
  *
@@ -11,7 +11,7 @@ package filé;
  */
 import java.io.*;
 import java.util.*;
-public class Filé {
+public class File {
         /**
          * @param args the command line arguments
          * @throws java.io.IOException
