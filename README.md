@@ -52,4 +52,53 @@ public class File {
 1000
 ```
 ---
+## Decimal to Hexadecimal 
+Using .txt files as input and output. This program change the value from Decimal base to Hexadecimal base 
 
+```java
+import java.util.*;
+import java.io.*;
+public class DectoHex {
+
+        /**
+         * @param args the command line arguments
+         * @throws java.io.IOException
+         */
+        public static void main(String[] args) throws IOException {
+                File input = new File("C:\\JavaText\\testin.txt");
+                File output = new File("C:\\JavaText\\testou.txt");
+                Scanner read = new Scanner(input);
+                PrintWriter cout = new PrintWriter(output);     
+                 
+                int dec = read.nextInt();
+                String locate = "0123456789ABCDEF";
+                String res = "";
+                while (dec > 0){
+                        res = locate.charAt(dec%16) + res;
+                        dec /= 16;
+                }
+                cout.print(res);
+                cout.close();
+        }
+        
+}
+```
+##### Example testcases:
+###### Test 1:
+testin.txt
+```
+8
+```
+testout.txt
+```
+8
+```
+###### Test 2:
+testin.txt
+```
+110
+```
+testout.txt
+```
+6E
+```
