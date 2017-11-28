@@ -4,7 +4,7 @@
 The program is divided into 3 java files in one package
 package thermometer;
 put all .java files into one package and type like ```package thermometer```.
-Thermometer.java  (Thermometer Class)
+[Thermometer.java!](https://github.com/baohuy251210/LambertJavaProjects/blob/master/Thermometer/src/thermometer/Thermometer.java)  (Thermometer Class)
 ```java
 public class Thermometer {
         private double degreesC;
@@ -23,7 +23,7 @@ public class Thermometer {
 }
 ```
 
-GUIWindow.java (GUI making details)
+[GUIWindow.java!](https://github.com/baohuy251210/LambertJavaProjects/blob/master/Thermometer/src/thermometer/GUIWindow.java) (GUI making details)
 ```java
 import javax.swing.*;
 import java.awt.*;
@@ -97,7 +97,7 @@ public class GUIWindow extends JFrame {
 }
 ```
 
-GUImain.java (Compile File)
+[GUImain.java!](https://github.com/baohuy251210/LambertJavaProjects/blob/master/Thermometer/src/thermometer/GUImain.java) (Compile File)
 ```java
 import javax.swing.*;
 import java.awt.*;
