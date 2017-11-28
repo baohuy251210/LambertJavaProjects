@@ -46,7 +46,7 @@ public class GUIWindow extends JFrame {
                                 double fah = Double.parseDouble(input);
                                 thermo.setFahrenheit(fah);
                                 double celsius = thermo.getCelsius();
-                                String result = String.format("%.3f", celsius);
+                                String result = String.format("%.3f", celsius);//String Format
                                 cField.setText(result);
                         } catch (Exception e1) {
                                 CallError("Bad number format!");
