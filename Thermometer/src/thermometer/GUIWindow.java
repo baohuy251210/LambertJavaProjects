@@ -2,7 +2,7 @@ package thermometer;
 
 /**
  *
- * @author Cyot49chv <your.name at your.org>
+ * @author Cyot49chv
  */
 import javax.swing.*;
 import java.awt.*;
@@ -14,10 +14,10 @@ public class GUIWindow extends JFrame {
 
         private JLabel fLabel = new JLabel("Degrees Fahrenheit");
         private JLabel cLabel = new JLabel("Degrees Celsius");
-        
+
         private JTextField fField = new JTextField("32.0");
         private JTextField cField = new JTextField("0.0");
-        
+
         private JButton convertButton = new JButton("Convert>>>>");
         private JButton revertButton = new JButton("<<<<Convert");
 
@@ -55,7 +55,6 @@ public class GUIWindow extends JFrame {
         }
 
         private class CelsiusListener implements ActionListener {
-
                 @Override
                 public void actionPerformed(ActionEvent e) {
                         try {
@@ -63,7 +62,7 @@ public class GUIWindow extends JFrame {
                                 double cel = Double.parseDouble(input);
                                 thermo.setCelsius(cel);
                                 double fahrenheit = thermo.getFahrenheit();
-                                String result = String.format("%.3f", fahrenheit);
+                                String result = String.format("%.3f", fahrenheit);//String Format
                                 fField.setText(result);
                         } catch (Exception e1) {
                                 CallError("Bad number format!");
