@@ -114,7 +114,8 @@ public class GUImain {
         
 }
 ```
-Your program should look like this:
+###### Your program should look like this:
+
 ![Thermometer1](https://github.com/baohuy251210/LambertJavaProjects/blob/master/Thermometer/nbproject/Thermometer1.PNG)
 ----------
 ### File Input and Output. UPD(11/26/17)
