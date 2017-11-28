@@ -1,5 +1,119 @@
 ## Welcome to my Java library!!
 ---------------
+## Completed GUI Thermometer
+The program is divided into 3 java files in one package
+package thermometer;
+put all .java files into one package and type like ```package thermometer```.
+Thermometer.java  (Thermometer Class)
+```java
+public class Thermometer {
+        private double degreesC;
+        public void setCelsius(double degrees){
+                degreesC = degrees;
+        }
+        public void setFahrenheit(double degrees){
+                degreesC = (degrees - 32.0) * 5.0/ 9.0;
+        }
+        public double getCelsius(){
+                return degreesC;
+        }
+        public double getFahrenheit(){
+                return degreesC * 9.0 / 5.0 + 32.0;
+        }
+}
+```
+
+GUIWindow.java (GUI making details)
+```java
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class GUIWindow extends JFrame {
+
+        private Thermometer thermo = new Thermometer();
+
+        private JLabel fLabel = new JLabel("Degrees Fahrenheit");
+        private JLabel cLabel = new JLabel("Degrees Celsius");
+
+        private JTextField fField = new JTextField("32.0");
+        private JTextField cField = new JTextField("0.0");
+
+        private JButton convertButton = new JButton("Convert>>>>");
+        private JButton revertButton = new JButton("<<<<Convert");
+
+        public GUIWindow() {
+                JPanel mainPanel = new JPanel(new GridLayout(2, 2, 12, 6));
+                mainPanel.add(fLabel);
+                mainPanel.add(cLabel);
+                mainPanel.add(fField);
+                mainPanel.add(cField);
+                JPanel buttonPanel = new JPanel();
+                buttonPanel.add(convertButton);
+                buttonPanel.add(revertButton);
+                Container container = getContentPane();
+                container.add(mainPanel, BorderLayout.CENTER);
+                container.add(buttonPanel, BorderLayout.SOUTH);
+                revertButton.addActionListener(new CelsiusListener());
+                convertButton.addActionListener(new FahrenheitListener());
+        }
+
+        private class FahrenheitListener implements ActionListener {
+
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                        try {
+                                String input = fField.getText();
+                                double fah = Double.parseDouble(input);
+                                thermo.setFahrenheit(fah);
+                                double celsius = thermo.getCelsius();
+                                String result = String.format("%.3f", celsius);//String Format
+                                cField.setText(result);
+                        } catch (Exception e1) {
+                                CallError("Bad number format!");
+                        }
+                }
+        }
+
+        private class CelsiusListener implements ActionListener {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                        try {
+                                String input = cField.getText();
+                                double cel = Double.parseDouble(input);
+                                thermo.setCelsius(cel);
+                                double fahrenheit = thermo.getFahrenheit();
+                                String result = String.format("%.3f", fahrenheit);//String Format
+                                fField.setText(result);
+                        } catch (Exception e1) {
+                                CallError("Bad number format!");
+                        }
+                }
+        }
+
+        void CallError(Object line) {
+                JOptionPane.showMessageDialog(GUIWindow.this, line, "Temperature Converter", JOptionPane.ERROR_MESSAGE);
+        }
+}
+```
+
+GUImain.java (Compile File)
+```java
+import javax.swing.*;
+import java.awt.*;
+public class GUImain {
+
+        public static void main(String[] args) {
+                GUIWindow gui = new GUIWindow();
+                gui.setTitle("Temperature Converter");
+                gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                gui.pack();
+                gui.setVisible(true);
+        }
+        
+}
+```
+----------
 ### File Input and Output
 The program below use my .txt files as input and output files.
 It will read 2 integers from the input and print out the larger integer to output until there's nothing left to read.
@@ -114,5 +228,3 @@ testout.txt
 6E
 ```
 ----
-#### That's it for TXT Files Manipulating. 
-#### It is basically using i/o on files instead of ide's output or terminal/command prompt.
