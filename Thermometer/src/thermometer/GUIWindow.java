@@ -14,8 +14,10 @@ public class GUIWindow extends JFrame {
 
         private JLabel fLabel = new JLabel("Degrees Fahrenheit");
         private JLabel cLabel = new JLabel("Degrees Celsius");
+        
         private JTextField fField = new JTextField("32.0");
         private JTextField cField = new JTextField("0.0");
+        
         private JButton convertButton = new JButton("Convert>>>>");
         private JButton revertButton = new JButton("<<<<Convert");
 

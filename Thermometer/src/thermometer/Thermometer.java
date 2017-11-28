@@ -2,7 +2,7 @@ package thermometer;
 
 /**
  *
- * @author Cyot49chv <your.name at your.org>
+ * @author Cyot49chv
  */
 public class Thermometer {
         private double degreesC;
