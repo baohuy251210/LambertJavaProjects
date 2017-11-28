@@ -1,6 +1,6 @@
 ## Welcome to my Java library!!
 ---------------
-### Completed GUI Thermometer. UPD(27/11/17)
+### Completed GUI Thermometer. UPD(11/27/17)
 The program is divided into 3 java files in one package
 package thermometer;
 put all .java files into one package and type like ```package thermometer```.
@@ -115,7 +115,7 @@ public class GUImain {
 }
 ```
 ----------
-### File Input and Output. UPD(26/11/17)
+### File Input and Output. UPD(11/26/17)
 The program below use my .txt files as input and output files.
 It will read 2 integers from the input and print out the larger integer to output until there's nothing left to read.
 ```
@@ -173,7 +173,7 @@ testout.txt
 ```
 ---
 ---
-## Decimal to Hexadecimal. UPD(26/11/17)
+## Decimal to Hexadecimal. UPD(11/26/17)
 Using .txt files as input and output. This program change the value from Decimal base to Hexadecimal base 
 Explain: 
 The code use a String locate = "0123456789ABCDEF", which contains all the characters in hexadecimal base.
