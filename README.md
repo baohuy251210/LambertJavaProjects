@@ -2,7 +2,7 @@
 ---------------
 ### Completed GUI Thermometer. UPD(11/27/17)
 
-![Thermometer1](https://github.com/baohuy251210/LambertJavaProjects/blob/master/Thermometer/nbproject/Thermometer1.PNG)
+![Image of GUI Thermometer](https://github.com/baohuy251210/LambertJavaProjects/blob/master/Thermometer/nbproject/Thermometer1.PNG)
 
 
 The program is divided into 3 java files in one package
