@@ -1,6 +1,10 @@
 ## Welcome to my Java library!!
 ---------------
 ### Completed GUI Thermometer. UPD(11/27/17)
+
+![Image of GUI Thermometer](https://github.com/baohuy251210/LambertJavaProjects/blob/master/Thermometer/nbproject/Thermometer1.PNG)
+
+
 The program is divided into 3 java files in one package
 package thermometer;
 put all .java files into one package and type like ```package thermometer```.
@@ -114,6 +118,7 @@ public class GUImain {
         
 }
 ```
+
 ----------
 ### File Input and Output. UPD(11/26/17)
 The program below use my .txt files as input and output files.
