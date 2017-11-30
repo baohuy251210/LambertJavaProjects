@@ -5,7 +5,7 @@
 This is Applet program. Create a new Project, create a new .java file in your project (not the main java file), paste the code in and 
 Run that file using Shift-F6.
 
-Explainations in comments.
+Explanations in comments.
 
 [EquationSolver.java (Github)](https://github.com/baohuy251210/LambertJavaProjects/blob/master/EquationSolver/src/equationsolver/EquationSolver.java)
 
