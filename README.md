@@ -2,8 +2,8 @@
 ---------------
 ### Simple Equation Solver with 2 numbers only. UPD(11/29/17).
 
-This is Applet program. Create a new Project, create a new .java file in your project (not the main java file), paste the code in and 
-Run that file using Shift-F6.
+This is an Applet program. Create a new Project, create a new .java file in your project (not the main java file), paste the code in and 
+run that file using Shift-F6. (Run file individually)
 
 Explanations in comments.
 
