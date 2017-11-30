@@ -10,7 +10,6 @@ package equationsolver;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import java.util.StringTokenizer;
 
 public class EquationSolver extends JApplet
         implements ActionListener {
