@@ -7,7 +7,9 @@ Run that file using Shift-F6.
 
 Explainations in comments.
 
-[EquationSolver.java!](https://github.com/baohuy251210/LambertJavaProjects/blob/master/EquationSolver/src/equationsolver/EquationSolver.java)
+[EquationSolver.java (Github)](https://github.com/baohuy251210/LambertJavaProjects/blob/master/EquationSolver/src/equationsolver/EquationSolver.java)
+
+Code:
 ```java
 import java.awt.*;
 import java.awt.event.*;
