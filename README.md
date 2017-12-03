@@ -1,5 +1,8 @@
 ## Welcome to my Java library!!
 ---------------
+### MultipleExpressionsEquationSolver is up. UPD(12/3/17).
+
+See in the folders. It's 2:40AM and I am exhausted to put code on here
 ### Simple Equation Solver with 2 numbers only. UPD(11/30/17).
 
 This is an Applet program. Create a new Project, create a new .java file in your project (not the main java file), paste the code in and 
