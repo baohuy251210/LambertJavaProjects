@@ -6,7 +6,7 @@ Good news, It is up after 2 hours struggling, I couldn't add images, and 2 hours
 
 [Project on Github](https://github.com/baohuy251210/LambertJavaProjects/tree/master/StringTest)
 
-[StringTester.java](https://github.com/baohuy251210/LambertJavaProjects/blob/master/StringTest/src/stringtest/StringTester.java)
+[StringTester.java (Github)](https://github.com/baohuy251210/LambertJavaProjects/blob/master/StringTest/src/stringtest/StringTester.java)
 
 -LoL the name is just 4 fun.
 
