@@ -5,6 +5,8 @@
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
             <name>StringTest</name>
             <source-roots>
+                <root id="src.build.dir"/>
+                <root id="src.nbproject.dir"/>
                 <root id="src.dir"/>
             </source-roots>
             <test-roots>
