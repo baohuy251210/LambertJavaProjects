@@ -12,7 +12,6 @@ Program is JApplet based, so look for EquationSolver below for instructions how 
 
 Code:
 ```java
-package (put your package's name here);
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
