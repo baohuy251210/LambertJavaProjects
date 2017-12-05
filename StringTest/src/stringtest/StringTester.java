@@ -6,10 +6,6 @@ package stringtest;
  */
 import java.awt.*;
 import java.awt.event.*;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.*;
 
 public class StringTester extends JApplet
@@ -39,11 +35,6 @@ public class StringTester extends JApplet
                 c = getContentPane();
                 this.setSize(500, 600);
                 c.setLayout(new FlowLayout());
-//                img = getImage(getCodeBase(),"Title1.jpg");
-//                System.out.println(getCodeBase());
-//                tIcon = new ImageIcon(img);
-//                ColorPanel panel = new ColorPanel(Color.red,tIcon);
-                
                 img = getImage(getDocumentBase(),"Title.jpg");
                 img1 = getImage(getDocumentBase(),"Title1.jpg");
                 img2 = getImage(getDocumentBase(),"Title1.jpg");
