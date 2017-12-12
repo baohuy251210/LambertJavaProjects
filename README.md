@@ -36,13 +36,16 @@ public class RandomStringChooser {
                }
                int res = (int) (Math.random() * num);
                String result = clone[res];
-               num--; check[res] = false;
-               
+               for (int i = 0; i < sarr.length; i++)
+                       if (result.equals(sarr[i])){
+                               check[i] = false;
+                               break;
+                       }
+               num--;
                return result;
         }
 
 }
-
 ```
 
 [Project on Github](https://github.com/baohuy251210/LambertJavaProjects/tree/master/StringTest)
