@@ -3,50 +3,6 @@
 ### Rock — Paper - Scissors against Computer. UPD(12/5/17).
 
 Good news, It is up after 2 hours struggling, I couldn't add images, and 2 hours later, I figured out that I cloned my project and put images in the clone one, not the one i was using :'< :'< :'<
-```java
-package addressname;
-
-/**
- *
- * @author HuyBTran
- */
-public class RandomStringChooser {
-
-        private String[] sarr;
-        private boolean[] check;
-        private int num;
-        public RandomStringChooser(String[] a) {
-                num = a.length;
-                sarr = new String[num];
-                check = new boolean[num];
-                for (int i = 0; i < num; i++) {
-                        sarr[i] = a[i];
-                        check[i] = true;
-                }
-        }
-        public String getNext(){
-               if (num <= 0) return "NONE";
-               String[] clone = new String[num];
-               int count = 0;
-               for (int i = 0; i < sarr.length; i++){
-                       if (check[i] == true){
-                               clone[count] = sarr[i];
-                               count++;
-                       }
-               }
-               int res = (int) (Math.random() * num);
-               String result = clone[res];
-               for (int i = 0; i < sarr.length; i++)
-                       if (result.equals(sarr[i])){
-                               check[i] = false;
-                               break;
-                       }
-               num--;
-               return result;
-        }
-
-}
-```
 
 [Project on Github](https://github.com/baohuy251210/LambertJavaProjects/tree/master/StringTest)
 
